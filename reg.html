@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        registration
+    </title>
+    <link rel=stylesheet type=text/css href="{{url_for('static',filename='style_reg.css')}}">
+    <h1>
+        Register for further access!!
+    </h1>
+    <body>
+        <div id="reg_box">
+        <form action="{{ url_for('succ') }}" method ="POST">
+            enter username:
+            <input name="usernm" placeholder="enter username">
+            <br><br>
+            enter password:
+            <input name="pass" placeholder="enter new password">
+            <br><br>
+            <button >Submit</button>
+        </form>
+    </div>    
+    </body>
+    
+</html>

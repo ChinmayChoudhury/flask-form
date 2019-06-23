@@ -1,0 +1,32 @@
+<!-- used for basic route -->
+<!DOCTYPE html>
+<html>
+    <link rel=stylesheet href="{{url_for('static',filename='style_ind.css')}}">
+    <title>
+        flask project!
+    </title>
+    <h1>
+        Welcome to the Page!!
+    </h1>
+    <div id="header">
+        this is supposed to come below header!!
+    </div>
+   
+    <body>                
+        I am learning Flask!!
+        This page is going to be rendered!!
+    </body>
+    
+    <div id="content">
+        This place is to hold content!!!
+    </div>
+    <div id="left_part">
+        Navigate to....
+        <br>
+        <a href="{{url_for('login') }}" class="lnk">LOGIN</a>
+        <br>
+        <a href="{{url_for('reg')}}" class="lnk">REGISTER</a>
+    
+    </div>
+    
+</html> 

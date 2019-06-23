@@ -1,0 +1,48 @@
+h1 {
+	margin-left: 0vw; margin-right: 0;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5vw;
+    background-color: grey;
+    text-align: center;
+}
+
+body{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3vw;
+    background-color: lightgray;
+}
+
+#content{
+	background-color: grey;
+	color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vw;
+    padding: 3%;
+    align-content: center;
+    margin-left: 30vw; margin-right: .5vw;
+    margin-top: 3vw;
+
+}
+
+#left_part{
+    background-color: burlywood;
+    color: darkred;
+    font-family: cursive;
+    margin-top: -8.8vw;
+    margin-right: 69vw;
+    margin-left: .5vw;
+    font-size: 1.5vw;
+    padding-bottom: 6.2vw;
+}
+
+#header{
+    background-color: chocolate;
+    margin-top: -3.2vw;
+}
+
+#lnk{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
